@@ -6,7 +6,7 @@ provider "aws" {
 
 provider "aws" {
   alias      = "plain_text_access_keys_provider"
-  region     = "us-west-1"
+  region     = "eu-west-3"
   #checkov:skip=CKV_AWS_41
   access_key = "AKIAIOSFODNN7EXAMPLE"
   #checkov:skip=CKV_AWS_41
